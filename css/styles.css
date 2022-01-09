@@ -19,6 +19,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -76,9 +78,12 @@ body {
 
 .hero {
   background-color: var(--hero-background);
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -99,6 +104,10 @@ body {
   cursor: pointer;
   color: var(--first-title-color);
   background-color: var(--btn-color);
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: inline-block;
 }
 
 .hero-btn-portfolio {
@@ -110,6 +119,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-color);
   cursor: pointer;
+  border-radius: 4px;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: inline-block;
+  min-width: 73px;
 }
 
 .hero-btn-portfolio:hover,
@@ -127,6 +141,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-color);
   cursor: pointer;
+  border-radius: 4px;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: inline-block;
+  min-width: 73px;
 }
 
 .hero-btn-portfolio-current {
@@ -139,7 +158,17 @@ body {
   color: var(--text-color);
 }
 
+.container {
+  background-color: turquoise;
+  border-color: red;
+  border-style: solid;
+}
+
 /* -----------------------------------Hidden------------------------------- */
+
+.hidden-title {
+  margin-top: 0;
+}
 
 .hidden-semi-title {
   font-weight: bold;
