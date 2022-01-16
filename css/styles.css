@@ -170,10 +170,12 @@ p {
 }
 
 .container {
-  background-color: turquoise;
+  background-color: transparent;
   border-color: red;
   border-style: solid;
   text-align: center;
+  max-width: 1200px;
+  min-width: 1200px;
 }
 
 /* -----------------------------------Hidden------------------------------- */
@@ -227,6 +229,8 @@ p {
 }
 
 .contacts {
+  display: flex;
+  justify-content: center;
   background-color: #2f303a;
 }
 .footer-logo {
@@ -251,6 +255,13 @@ p {
   letter-spacing: 0.03em;
   color: var(--footer-text);
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
 /*  заголовок #FFFFFF */
 /* текст #212121 */
 /* мілкий текст #757575 */
