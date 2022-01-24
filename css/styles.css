@@ -28,6 +28,19 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 /* ---------------------------------HEADER--------------------------- */
 
 .logo {
@@ -79,6 +92,9 @@ body {
 .hero {
   background-color: var(--hero-background);
   text-align: center;
+  width: 1200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -158,14 +174,14 @@ body {
   color: var(--text-color);
 }
 
-.container {
+/* .container {
   background-color: transparent;
   border-color: red;
   border-style: solid;
   text-align: center;
   max-width: 1200px;
   min-width: 1200px;
-}
+} */
 
 /* -----------------------------------Hidden------------------------------- */
 
